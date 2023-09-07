@@ -1,0 +1,27 @@
+BACK END
+
+JAVASCRIPT
+NodeJS = ajuda o computador a entender que estamos usando JS fora do navegador, no BackEnd. E já vem com + de 1 milhão de pacotes prontos no NPM.
+
+NPM = gerencia pacotes (busca, instala e atualiza pacotes para o Node.JS)
+	criar pacote json: npm init -y  (-y significa para preencher automaticamente).
+	instalar pacote: npm install NomeDoPacote
+
+
+console.log é um jeito de verificarmos se o código está no caminho certo, no console.
+o log é um print
+
+sintaxe = regras
+
+CONSTANTE
+const é um identificador que se repete no código e que não muda de valor.
+Deve começar com letra, $ e _, sem espaço. 
+const porta = 3333 ( aí quando escrever porta já vão saber que é 3333)
+
+FUNÇÃO
+São identificadores que guardam instruções com ações.
+Quando for criar função, tem que ser um verbo e descritivo
+function mostraPorta () {Instruções}
+SEMPRE com () no final quando eu tiver chamando, se for o pc/servidor não precisa.
+
+ALGORITMO = INSTRUÇÕES
