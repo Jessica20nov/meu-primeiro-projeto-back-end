@@ -1,12 +1,23 @@
 BACK END
 
+API: Interface de app e programação, é desenvolvida para que um sistema possa usar as funcionalidades de outro sistema
+
+ALGORITMO = INSTRUÇÕES
+
+HTTP: usado para transferir arquivo para a internet
+GET é um verbo do HTTP
+router = rota para url
+
 JAVASCRIPT
 NodeJS = ajuda o computador a entender que estamos usando JS fora do navegador, no BackEnd. E já vem com + de 1 milhão de pacotes prontos no NPM.
 
-NPM = gerencia pacotes (busca, instala e atualiza pacotes para o Node.JS)
+NPM = gerencia pacotes/ bibliotecas (busca, instala e atualiza pacotes para o Node.JS)
 	criar pacote json: npm init -y  (-y significa para preencher automaticamente).
 	instalar pacote: npm install NomeDoPacote
 
+Biblioteca uuid: criar id's diferentes
+
+OBJETO: sempre {propriedade}
 
 console.log é um jeito de verificarmos se o código está no caminho certo, no console.
 o log é um print
@@ -23,5 +34,34 @@ São identificadores que guardam instruções com ações.
 Quando for criar função, tem que ser um verbo e descritivo
 function mostraPorta () {Instruções}
 SEMPRE com () no final quando eu tiver chamando, se for o pc/servidor não precisa.
+Quando o cliente for escrever e queremos mandar msg = function Nome (request, response)
+find()
+filter()
 
-ALGORITMO = INSTRUÇÕES
+response.send = texto
+response.json = mtas infos
+
+DEPLOY:
+Colocar o código num serviço de nuvem, online
+
+RENDER:
+Serviço para fazer deploy, reproduz ações para por na nuvem. É um site
+npm install
+
+NÃO PODE ESQUECER DE POR O /mulheres ou o que escolheu no final do site que o render criou.
+
+HTTP
+SEMPRE QUE USAR UM VERBO, PRECISAMOS PERMITIR O APP
+POST: realiza publicações
+PATCH: corrige informações
+DELETE: delete
+GET: testa no navegador, o resto só no Insomnia
+
+Só vai para o navegador o que aparece em GET, o único que dá para testar
+
+// COMENTARIO
+condicional if
+operador igualdade ===
+diferente de !==
+
+O INSOMNIA não vai mudar o código principal.
